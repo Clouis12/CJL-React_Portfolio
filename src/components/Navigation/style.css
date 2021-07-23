@@ -1,0 +1,46 @@
+  header.cjl-Navigation nav.cjl-Navigation {
+    justify-content: center;
+  }
+
+
+nav.cjl-Navigation  a.cjl-Navigation :hover {
+  background-size: 100% 100%;
+  color: var(--primary);
+}
+
+nav.cjl-Navigation  a.cjl-Navigation :last-child {
+  margin-right: 0;
+}
+
+nav.cjl-Navigation a.cjl-Navigation {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: rgb(231, 231, 231);
+  margin-right: 10px;
+  background-image: linear-gradient( 270deg, rgb(244 247 247) 0%, rgb(235 240 241) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+  font-size: 1.4rem;
+}
+header.cjl-Navigation {
+  padding: 0px 6% 0px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--tertiary);
+  background-color: #063806;
+  height: 8vh;
+}
+
+header.cjl-Navigation h1.cjl-Navigation {
+  color: var(--secondary);
+  background-color: rgb(231, 231, 231);
+  padding: 5px 1% 5px 6%;
+  margin: 0;
+  font-size: 4vw;
+  line-height: 1;
+}
